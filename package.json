@@ -1,0 +1,26 @@
+{
+  "name": "iccm",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cy:amazon": "--config baseUrl=https://www.amazon.in/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "@shelex/cypress-allure-plugin": "^2.31.0",
+    "allure-commandline": "^2.18.1",
+    "cypress": "^9.7.0",
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "cypress-multi-reporters": "^1.6.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "mocha-junit-reporter": "^2.0.2"
+  },
+  "dependencies": {
+    "cypress-xpath": "^1.6.2",
+    "typescript": "^4.6.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "viewportWidth": 1480,
+  "viewportHeight": 1000,
+  "defaultCommandTimeout": 200000,
+  "pageLoadTimeout": 400000,
+  "requestTimeout": 300000,
+  "responseTimeout": 300000,
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false,
+  "projectId": "mz9t19",
+  "baseUrl": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiSrYHB3KeCAxU2qmYCHV_LBC0YABAAGgJzbQ&gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_mv5s0v-RKh2EfjFCo-qcUBWuXfgtrjkAHjVNbeM6Dlqa_FdhC9TQQaAgUTEALw_wcB&ohost=www.google.com&cid=CAESVuD2OLJ0abils72JYymDVkobfmpssimtyKkt1COsR0sLYl1UfPQsgLrwpFAmNVs9vKM5XSoRjF48zc2UM0GUSB4hLZBINxVcaAErmZ_nwx1ropqI3zOM&sig=AOD64_05JU4uliLA2h6DsAvr5C1Qrbu2SA&q&adurl&ved=2ahUKEwif_fvA3KeCAxXO8zgGHZAsCgAQ0Qx6BAgIEAE"
+}
